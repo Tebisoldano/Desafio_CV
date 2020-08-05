@@ -1,0 +1,46 @@
+.nav{
+  grid-column: 0 / 3;
+  position: fixed;
+  background-color: $green;
+  padding-bottom: 100%;
+  padding-top: 150px;
+}
+
+.nav__sections{}
+
+.nav__a{
+  text-decoration: none;
+  font-family: $lato;
+  font-weight: $Bold;
+  color: $blue;
+  font-size: $medium;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#gris{
+  color: gray;
+}
+
+
+
+@media (max-width: 768px) {
+  .nav{
+    grid-column: none;
+    position: static;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    vertical-align: middle;
+  }
+
+.nav__img{
+  display: block;
+  margin: auto;
+
+}
+
+  .nav__sections{
+    display: none;
+  }
+}

@@ -1,0 +1,194 @@
+
+
+.section__content{
+  grid-column: 3 / 12;
+
+}
+
+@media (max-width: 768px) {
+  .section__content{
+    grid-column: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+// Presentacion
+
+.section__intro{
+  padding-top: 120px;
+  padding-bottom: 150px;
+
+
+
+}
+
+.section__title{
+  font-family: $lato;
+  font-weight: $Black;
+  color: $blue;
+  font-size: $xx-large;
+  margin-bottom: 0px;
+}
+
+
+.section__data{
+    margin-top: 0px;
+    font-family: $lato;
+    font-weight: $Regular;
+    color: $blue;
+    font-size: $medium;
+}
+
+.section__mail{
+  font-family: $lato;
+  font-weight: $Bold;
+  color: $blue;
+  font-size: $medium;
+}
+
+a i {
+  color: $blue;
+  font-size: $x-large;
+}
+
+
+.section__main{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+.section__subtitle{
+  font-family: $lato;
+  font-weight: $Black;
+  color: $blue;
+  font-size: $x-large;
+}
+
+
+.section__box1{
+
+}
+
+.section__title-box{
+display: inline-block;
+
+}
+.section__time-box{
+  display: inline-block;
+  float: right;
+}
+
+.section__job-title{
+  font-family: $lato;
+  font-weight: $Bold;
+  color: $blue;
+  font-size: $large;
+  margin-bottom: 0px;
+}
+
+.section__job-role{
+  font-family: $lato;
+  font-weight: $Regular;
+  color: $blue;
+  font-size: $medium;
+  margin-top: 0px;
+}
+
+.section__time{
+  font-family: $lato;
+  font-weight: $Regular;
+  color: $blue;
+  font-size: $medium;
+
+}
+
+.section__text{
+  font-family: $lato;
+  font-weight: $Light;
+  color: $blue;
+  font-size: $medium;
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+}
+
+.section__text-contact{
+  font-family: $lato;
+  font-weight: $Light;
+  color: $blue;
+  font-size: $medium;
+  margin-top: 40px;
+  margin-bottom: 80px;
+
+}
+
+
+//Contacto
+
+.section__main-contact{
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.section__contact-form-name{
+  font-family: $lato;
+  font-weight: $Regular;
+  color: $blue;
+  font-size: $medium;
+  margin-bottom: 20px;
+}
+
+input{
+  margin-top: 0px;
+  width: 100%;
+  border: 1px solid gray;
+  color: gray;
+  font-family: $lato;
+  font-weight: $Light;
+  font-size: $medium;
+
+}
+
+textarea{
+  margin-top: 0px;
+  width: 100%;
+  border: 1px solid gray;
+  color: gray;
+  font-family: $lato;
+  font-weight: $Light;
+  font-size: $medium;
+
+}
+
+@media (max-width: 768px) {
+  .section__intro{
+    padding-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+  }
+
+  .section__title{
+    font-size: $x-large;
+
+  }
+
+
+  .section__main-contact{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .section__main{
+    margin-left: 40px;
+    margin-right: 40px;
+
+  }
+
+  .section__time-box{
+    display: block;
+    float: none;
+  }
+}
